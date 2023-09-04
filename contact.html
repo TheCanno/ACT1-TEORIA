@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Contacto - Mi Sitio Web</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Mi Sitio Web</a>
+            <ul class="menu">
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li class="has-submenu">
+                    <a href="#">Catálogo</a>
+                    <ul class="sub-menu">
+                        <li><a href="anime.html">Animé</a></li>
+                        <li><a href="caricaturas.html">Caricaturas</a></li>
+                        <li><a href="paisajes.html">Paisajes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h1>Contacto</h1>
+            <p>¿Tienes alguna pregunta o comentario? Por favor, déjame tu información y te responderé lo antes posible.
+            </p>
+            <form action="mailto:loyolalaureano14@gmail.com" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="tu@email.com" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"
+                    required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

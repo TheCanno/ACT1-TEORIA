@@ -1,0 +1,203 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body,
+h1,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales para el cuerpo del sitio */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    /* Color de fondo de la página principal */
+    color: #333;
+    /* Color de texto predeterminado */
+}
+
+/* Estilos para el encabezado y la barra de navegación */
+header {
+    background-color: #007acc;
+    /* Color de fondo de la barra superior */
+    color: #fff;
+    /* Color de texto en la barra superior */
+    padding: 10px 0;
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para el menú desplegable "Catálogo" */
+.has-submenu:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #007acc;
+    list-style: none;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+}
+
+.sub-menu li {
+    margin: 10px 0;
+}
+
+/* Estilos para la sección de bienvenida */
+.welcome {
+    max-width: 960px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    /* Color de fondo del contenido principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    font-size: 18px;
+}
+
+/* ... Estilos anteriores ... */
+
+/* Agrega estilos para centrar las imágenes en una disposición de 3 de longitud */
+.content {
+    max-width: 960px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.placeholder {
+    width: calc(33.33% - 20px);
+    /* Calcula el ancho para 3 columnas centradas con espacio entre ellas */
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid black;
+    /* Borde negro */
+    padding: 10px;
+    background-color: pink;
+    /* Relleno rosa */
+    box-sizing: border-box;
+}
+
+.placeholder img {
+    max-width: 100%;
+    /* Ajusta el tamaño de la imagen al contenedor */
+    height: auto;
+}
+
+/* Estilos específicos para la imagen del enunciado */
+.imagen-enunciado {
+    width: 500%;
+    /* Ajusta el ancho al 100% del contenedor */
+    height: 100%;
+    /* Mantiene la proporción original de la imagen */
+}
+
+/* Estilos generales para mejorar la legibilidad */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1,
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para formularios */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005aa6;
+}
+
+/* Estilos específicos para about.html */
+.about {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos específicos para contact.html */
+.contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
